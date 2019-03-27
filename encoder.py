@@ -16,7 +16,7 @@ def hexit(char):
     return hex(ord(char)).lstrip("0x")
 
 
-word = '*Hel1oW0r1d*'
+word = input("password:")
 
 chararray = split(word)
 newchararray = list()
